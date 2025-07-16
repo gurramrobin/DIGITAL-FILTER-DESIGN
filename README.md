@@ -17,8 +17,6 @@ The FIR filter performs convolution between the input signal and the coefficient
 
 - `fir_filter.v` – FIR filter Verilog module  
 - `fir_filter_tb.v` – Testbench with impulse input  
-- `fir_filter_waveform.png` – Simulation output image  
-- `fir_filter_report.pdf` – Project report with analysis
 
 ⚙️ How It Works
 
@@ -32,7 +30,4 @@ y[n] = h[0]*x[n] + h[1]*x[n-1] + h[2]*x[n-2] + h[3]*x[n-3]
 
 ✅ Output Example
 
-For input: `[1, 0, 0, 0, 0]`,  
-Output: `[1, 2, 3, 4, 0, 0, ...]`
-
-This project serves as a foundational example for learning FIR filters in hardware and Verilog simulation techniques.
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/1dd15f79-d1d2-4d76-a6df-e2493a431e98" />
