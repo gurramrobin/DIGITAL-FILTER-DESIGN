@@ -7,7 +7,7 @@ DOMAIN:VLSI
 DURATION: 6 WEEKS
 MENTOR: NEELA SANTHOSH
 
-# 🎧 FIR Filter (Finite Impulse Response) – Verilog Project
+# 🎧 FIR Filter (Finite Impulse Response)
 
 This project implements a 4-tap FIR (Finite Impulse Response) digital filter using Verilog. FIR filters are used in digital signal processing to remove noise, shape signals, and perform frequency-selective filtering. The design uses hardcoded coefficients `[1, 2, 3, 4]` and supports signed 8-bit input and 16-bit output.
 
